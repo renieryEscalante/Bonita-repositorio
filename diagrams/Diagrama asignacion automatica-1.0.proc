@@ -54,6 +54,16 @@
           <contract xmi:type="process:Contract" xmi:id="_0L_z6ejKEeqd5e7vx6ntuQ"/>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_0L_z7OjKEeqd5e7vx6ntuQ" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
+        <elements xmi:type="process:ServiceTask" xmi:id="_IijKEO8dEeqx1ZYR_Ypcpg" name="Tarea1">
+          <dynamicLabel xmi:type="expression:Expression" xmi:id="_Ii_2Ae8dEeqx1ZYR_Ypcpg" name="" content="" returnTypeFixed="true"/>
+          <dynamicDescription xmi:type="expression:Expression" xmi:id="_Ii_2AO8dEeqx1ZYR_Ypcpg" name="" content="" returnTypeFixed="true"/>
+          <stepSummary xmi:type="expression:Expression" xmi:id="_Ii_2Au8dEeqx1ZYR_Ypcpg" name="" content="" returnTypeFixed="true"/>
+          <loopCondition xmi:type="expression:Expression" xmi:id="_Ii_2A-8dEeqx1ZYR_Ypcpg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+          <loopMaximum xmi:type="expression:Expression" xmi:id="_Ii_2BO8dEeqx1ZYR_Ypcpg" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <cardinalityExpression xmi:type="expression:Expression" xmi:id="_Ii_2Be8dEeqx1ZYR_Ypcpg" name="" content="" returnType="java.lang.Integer" returnTypeFixed="true"/>
+          <iteratorExpression xmi:type="expression:Expression" xmi:id="_IjAdEO8dEeqx1ZYR_Ypcpg" name="multiInstanceIterator" content="multiInstanceIterator" type="MULTIINSTANCE_ITERATOR_TYPE" returnType="java.lang.Object" returnTypeFixed="true"/>
+          <completionCondition xmi:type="expression:Expression" xmi:id="_Ii_2Bu8dEeqx1ZYR_Ypcpg" name="" content="" returnType="java.lang.Boolean" returnTypeFixed="true"/>
+        </elements>
       </elements>
       <formMapping xmi:type="process:FormMapping" xmi:id="_G9bIFOjKEeqd5e7vx6ntuQ">
         <targetForm xmi:type="expression:Expression" xmi:id="_BG6CwujZEeqd5e7vx6ntuQ" name="" content="" type="FORM_REFERENCE_TYPE" returnTypeFixed="true"/>
@@ -143,6 +153,10 @@
             <children xmi:type="notation:Shape" xmi:id="_0MBpEOjKEeqd5e7vx6ntuQ" type="3005" element="_0L_z4OjKEeqd5e7vx6ntuQ" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
               <children xmi:type="notation:DecorationNode" xmi:id="_0MCQIOjKEeqd5e7vx6ntuQ" type="5005"/>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_0MBpEejKEeqd5e7vx6ntuQ" x="72" y="24" width="120" height="60"/>
+            </children>
+            <children xmi:type="notation:Shape" xmi:id="_IlLnUO8dEeqx1ZYR_Ypcpg" type="3027" element="_IijKEO8dEeqx1ZYR_Ypcpg" fontName="Segoe UI" fillColor="14334392" lineColor="10710316">
+              <children xmi:type="notation:DecorationNode" xmi:id="_IlMOYO8dEeqx1ZYR_Ypcpg" type="5017"/>
+              <layoutConstraint xmi:type="notation:Bounds" xmi:id="_IlLnUe8dEeqx1ZYR_Ypcpg" x="395" y="77"/>
             </children>
           </children>
           <styles xmi:type="notation:DescriptionStyle" xmi:id="_ZZCuwejKEeqd5e7vx6ntuQ"/>
